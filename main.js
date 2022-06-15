@@ -30,7 +30,7 @@ function handleInputValidation(score)
 {
     if(score < 1)
     {
-        alert("Please provide a valid number.");
+        alert("Please provide a positive number.");
         window.location.reload();
     }
     else{
