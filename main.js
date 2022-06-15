@@ -1,7 +1,7 @@
 
 let p1score = 0;
 let p2score = 0;
-let playingto = 5;
+let playingto = 25;
 
 let playerTurn = "p1";
 //const playerTurn = ["p1", "p2"];
