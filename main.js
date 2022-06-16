@@ -102,16 +102,4 @@ resetBtnElem.addEventListener("click", () => {
    
 });
 
-function generateOTP() {
-          
-    // Declare a digits variable 
-    // which stores all digits
-    var digits = '01';
-    let OTP = '';
-    for (let i = 0; i < 1; i++ ) {
-        OTP += digits[Math.floor(Math.random() * 2)];
-    }
-    return OTP;
-};
-
 
